@@ -1,0 +1,31 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "invalid_organization": "Unable to connect to Nutrislice API endpoint. Check the organization id you have provided.",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "organization": "Organization Id"
+                },
+                "data_description": {
+                    "organization": "The id of the Nutrislice organization. This is the first part of the URL that you access today from Nutrislice (e.g. for 'https://libertyhill.api.nutrislice.com` the organization id is 'libertyhill')."
+                },
+                "title": "Enter the organization id (e.g. 'libertyhill')"
+            },
+            "school": {
+                "data": {
+                    "school": "School"
+                },
+                "data_description": {
+                    "school": "The school to use for the calendars."
+                },
+                "title": "Select the school"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "nutrislice",
+  "name": "Nutrislice School Food Calendars",
+  "version": "0.0.1",
+  "codeowners": ["@juanqui"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/juanqui/ha-nutrislice-school-calendars",
+  "integration_type": "service",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "issue_tracker": "https://github.com/juanqui/ha-nutrislice-school-calendars"
+}
